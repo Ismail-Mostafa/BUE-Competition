@@ -1,0 +1,257 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA_POWER
+   (shape (circ TOP 152400 0 0))
+   (shape (circ I1 152400 0 0))
+   (shape (circ I2 152400 0 0))
+   (shape (circ I3 152400 0 0))
+   (shape (circ I4 152400 0 0))
+   (shape (circ I5 152400 0 0))
+   (shape (circ I6 152400 0 0))
+   (shape (circ I7 152400 0 0))
+   (shape (circ I8 152400 0 0))
+   (shape (circ I9 152400 0 0))
+   (shape (circ I10 152400 0 0))
+   (shape (circ I11 152400 0 0))
+   (shape (circ I12 152400 0 0))
+   (shape (circ I13 152400 0 0))
+   (shape (circ I14 152400 0 0))
+   (shape (circ BOT 152400 0 0))
+  )
+  (padstack $VIA_SIGNAL
+   (shape (circ TOP 152400 0 0))
+   (shape (circ I1 152400 0 0))
+   (shape (circ I2 152400 0 0))
+   (shape (circ I3 152400 0 0))
+   (shape (circ I4 152400 0 0))
+   (shape (circ I5 152400 0 0))
+   (shape (circ I6 152400 0 0))
+   (shape (circ I7 152400 0 0))
+   (shape (circ I8 152400 0 0))
+   (shape (circ I9 152400 0 0))
+   (shape (circ I10 152400 0 0))
+   (shape (circ I11 152400 0 0))
+   (shape (circ I12 152400 0 0))
+   (shape (circ I13 152400 0 0))
+   (shape (circ I14 152400 0 0))
+   (shape (circ BOT 152400 0 0))
+  )
+  )
+  (network_out
+   (Net #00000 
+   (rule
+   )
+   )
+   (Net #00004 
+   (rule
+   )
+   )
+   (Net #00007 
+   (rule
+   )
+   )
+   (Net #00008 
+   (rule
+   )
+   )
+   (Net #00009 
+   (rule
+   )
+   )
+   (Net #00010 
+   (rule
+   )
+   )
+   (Net #00021 
+   (rule
+   )
+   )
+   (Net #00023 
+   (rule
+   )
+   )
+   (Net 3.3V 
+   (rule
+   )
+   )
+   (Net A0 
+   (rule
+   )
+   (wire (path BOT 76200  5588000 6210300 4000500 6210300 4000500 8379020
+     4219120 8379020)
+    (connect (terminal pin J1-3) (terminal pin AD-0))
+   )
+   )
+   (Net A1 
+   (rule
+   )
+   (wire (path BOT 76200  5588000 6464300 4970250 6464300 4970250 8125020
+     4219120 8125020)
+    (connect (terminal pin J1-2) (terminal pin AD-1))
+   )
+   )
+   (Net D10 
+   (rule
+   )
+   )
+   (Net D11 
+   (rule
+   )
+   )
+   (Net D12 
+   (rule
+   )
+   )
+   (Net D13 
+   (rule
+   )
+   )
+   (Net D2 
+   (rule
+   )
+   (wire (path BOT 76200  9019120 7647020 7112000 7647020 7112000 6718300
+     5588000 6718300)
+    (connect (terminal pin IOL-5) (terminal pin J1-1))
+   )
+   )
+   (Net D3 
+   (rule
+   )
+   (wire (path BOT 76200  9019120 7901020 7412998 7901020 7412998 10083800
+     6832600 10083800)
+    (connect (terminal pin IOL-4) (terminal pin B1-0))
+   )
+   )
+   (Net D4 
+   (rule
+   )
+   (wire (path BOT 76200  7835900 10579100 7835900 8155020 9019120 8155020)
+    (connect (terminal pin B2-0) (terminal pin IOL-3))
+   )
+   )
+   (Net D5 
+   (rule
+   )
+   (wire (path BOT 76200  9019120 8409020 8191500 8409020 8191500 12115800
+     6807200 12115800)
+    (connect (terminal pin IOL-2) (terminal pin B3-0))
+   )
+   )
+   (Net D6 
+   (rule
+   )
+   (wire (path BOT 76200  9019120 8663020 8567959 8663020 8567959 12346010
+     6413500 12346010 6413500 11874500 8064500 11874500 8064500 10858500
+     6286500 10858500 6286500 10591800 5765800 10591800)
+    (connect (terminal pin IOL-1) (terminal pin B4-0))
+   )
+   )
+   (Net D7 
+   (rule
+   )
+   (wire (path BOT 76200  9019120 8917020 9334500 8917020 9334500 5651500
+     3619500 5651500 3619500 10477500 5143500 10477500 5143500 9334500
+     5524500 9334500 5524500 8597900 5270500 8597900)
+    (connect (terminal pin IOL-0) (terminal pin B5-0))
+   )
+   )
+   (Net D8 
+   (rule
+   )
+   )
+   (Net D9 
+   (rule
+   )
+   )
+   (Net GND 
+   (rule
+   )
+   (wire (path BOT 76200  7835900 11087100 7835900 11607800 6807200 11607800)
+    (connect (terminal pin B2-1) (terminal pin B3-1))
+   )
+   (wire (path BOT 76200  6807200 11607800 5765800 11607800 5765800 11099800)
+    (connect (terminal pin B3-1) (terminal pin B4-1))
+   )
+   (wire (path BOT 76200  5588000 8318500 4889500 8318500 4889500 8826500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 76200  5842000 9461500 5842000 8318500 5588000 8318500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 76200  4219120 9147020 4889500 9147020 4889500 8826500)
+    (connect (terminal pin POWER-4) (terminal wire))
+   )
+   (wire (path BOT 76200  5765800 11099800 5397500 11099800 5397500 9461500
+     5842000 9461500)
+    (connect (terminal pin B4-1) (terminal wire))
+   )
+   (wire (path BOT 76200  5842000 9461500 5842000 9575800 6832600 9575800)
+    (connect (terminal wire) (terminal pin B1-1))
+   )
+   (wire (path BOT 76200  5270500 9105900 5270500 8826500 4889500 8826500)
+    (connect (terminal pin B5-1) (terminal wire))
+   )
+   (wire (path BOT 76200  5588000 8318500 5588000 6972300)
+    (connect (terminal wire) (terminal pin J1-0))
+   )
+   (wire (path BOT 76200  4219120 9147020 4219120 9401020)
+    (connect (terminal pin POWER-4) (terminal pin POWER-3))
+   )
+   )
+   (Net RX 
+   (rule
+   )
+   )
+   (Net TX 
+   (rule
+   )
+   )
+   (Net VCC/VDD 
+   (rule
+   )
+   (wire (path BOT 76200  5588000 5956300 3873500 5956300 3873500 9655020
+     4219120 9655020)
+    (connect (terminal pin J1-4) (terminal pin POWER-2))
+   )
+   )
+  )
+ )
